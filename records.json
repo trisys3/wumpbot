@@ -19,12 +19,12 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       },
-      "prepreHash": "3115eba9e79bbb7d81c3",
-      "preHash": "b9c7166a0c385ebe8b53",
-      "hash": "64a2ac402ca7584584bb",
+      "prepreHash": "64a2ac402ca7584584bb",
+      "preHash": "4de2b68c63653c7844ef",
+      "hash": "4a1d6aa8b530bf06e3bc",
       "moduleHashs": {
         "/home/sean/repos/wumpbot/node_modules/html-webpack-plugin/lib/loader.js!/home/sean/repos/wumpbot/node_modules/html-webpack-plugin/default_index.ejs": "e86ea57d072ff676b3895da5ba9e1f84",
         "/home/sean/repos/wumpbot/node_modules/lodash/lodash.js": "ff0ff85e30140887f414cdeee2a152fc",
@@ -32,10 +32,10 @@
         "/home/sean/repos/wumpbot/node_modules/webpack/buildin/module.js": "ec7ab57b072d32de713a160af67c1d74"
       },
       "chunkHashs": {
-        "1": "a271079e897bef1988b90fdb2472cd37"
+        "0": "2b9c2e8cb25a43246067678689bf6579"
       },
       "chunkModuleIds": {
-        "1": [
+        "0": [
           0,
           1,
           2,
@@ -61,14 +61,14 @@
       "0": 0
     }
   },
-  "prepreHash": "285ec12ef62f4c51f240",
-  "preHash": "61fd8b219d90582f7a45",
-  "hash": "ac6a7e67fa13cdcc59df",
+  "prepreHash": "ac6a7e67fa13cdcc59df",
+  "preHash": "fb205deae3af8c620fcd",
+  "hash": "fb1188b4588f40c804df",
   "moduleHashs": {
-    "/home/sean/repos/wumpbot/node_modules/babel-loader/lib/index.js??ref--0!/home/sean/repos/wumpbot/app.js": "6403b26c4d021eed5e3655a6665876b5"
+    "/home/sean/repos/wumpbot/node_modules/babel-loader/lib/index.js??ref--0!/home/sean/repos/wumpbot/app.js": "49c13e770d5acb3aac83b50b49753ec6"
   },
   "chunkHashs": {
-    "0": "419d23f0514d17cbd9e76a014d600a30"
+    "0": "e3fc2c462531dff65feff40ce8abd587"
   },
   "chunkModuleIds": {
     "0": [
