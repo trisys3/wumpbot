@@ -1,6 +1,9 @@
 # distribution directory
 dist/
 
+# editor/IDE temporary/swap/cache/recovery files
+.*.swp
+
 # Logs
 logs
 *.log
