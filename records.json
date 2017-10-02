@@ -22,14 +22,14 @@
           "0": 0
         }
       },
-      "prepreHash": "4514cb13b719a775a2d0",
+      "prepreHash": "6dad5f57466efeae71dc",
       "preHash": "4de2b68c63653c7844ef",
-      "hash": "60b3f4a4eca03e3ab473",
+      "hash": "3f44571fbdb48044efd9",
       "moduleHashs": {
-        "/data/data/com.termux/files/home/repos/wumpbot/node_modules/html-webpack-plugin/lib/loader.js!/data/data/com.termux/files/home/repos/wumpbot/node_modules/html-webpack-plugin/default_index.ejs": "e86ea57d072ff676b3895da5ba9e1f84",
-        "/data/data/com.termux/files/home/repos/wumpbot/node_modules/lodash/lodash.js": "ff0ff85e30140887f414cdeee2a152fc",
-        "/data/data/com.termux/files/home/repos/wumpbot/node_modules/webpack/buildin/global.js": "612919576171d20540063d5e29ecee44",
-        "/data/data/com.termux/files/home/repos/wumpbot/node_modules/webpack/buildin/module.js": "ec7ab57b072d32de713a160af67c1d74"
+        "/home/sean/repos/wumpbot/node_modules/html-webpack-plugin/lib/loader.js!/home/sean/repos/wumpbot/node_modules/html-webpack-plugin/default_index.ejs": "e86ea57d072ff676b3895da5ba9e1f84",
+        "/home/sean/repos/wumpbot/node_modules/lodash/lodash.js": "ff0ff85e30140887f414cdeee2a152fc",
+        "/home/sean/repos/wumpbot/node_modules/webpack/buildin/global.js": "612919576171d20540063d5e29ecee44",
+        "/home/sean/repos/wumpbot/node_modules/webpack/buildin/module.js": "ec7ab57b072d32de713a160af67c1d74"
       },
       "chunkHashs": {
         "0": "2b9c2e8cb25a43246067678689bf6579"
@@ -65,16 +65,16 @@
       "0": 0
     }
   },
-  "prepreHash": "647b0a221ffec8ce06e6",
-  "preHash": "2e03dd6c26e0b4db3ccb",
-  "hash": "18f3c91d332dd3b7cdfc",
+  "prepreHash": "316b71563647cee845e7",
+  "preHash": "12d8bd1223d1c00ae53d",
+  "hash": "4d1b6770679313984bbf",
   "moduleHashs": {
-    "/data/data/com.termux/files/home/repos/wumpbot/node_modules/babel-loader/lib/index.js??ref--0!/data/data/com.termux/files/home/repos/wumpbot/app.js": "18d296253adcb1c5127434e3972d21ca",
-    "/data/data/com.termux/files/home/repos/wumpbot/node_modules/css-loader/index.js??ref--1-0!/data/data/com.termux/files/home/repos/wumpbot/node_modules/postcss-loader/lib/index.js!/data/data/com.termux/files/home/repos/wumpbot/app.css": "16f4b28a932a55441fbe45c0f23d3dcf",
-    "/data/data/com.termux/files/home/repos/wumpbot/node_modules/css-loader/lib/css-base.js": "5cfaf75bb86ef9acb7eb56c5d6359f5b"
+    "/home/sean/repos/wumpbot/node_modules/babel-loader/lib/index.js??ref--0!/home/sean/repos/wumpbot/app.js": "18d296253adcb1c5127434e3972d21ca",
+    "/home/sean/repos/wumpbot/node_modules/css-loader/index.js??ref--1-0!/home/sean/repos/wumpbot/node_modules/postcss-loader/lib/index.js!/home/sean/repos/wumpbot/app.css": "ebe084f1c980cafece2a1bb40fc242e0",
+    "/home/sean/repos/wumpbot/node_modules/css-loader/lib/css-base.js": "5cfaf75bb86ef9acb7eb56c5d6359f5b"
   },
   "chunkHashs": {
-    "0": "00df000ce22c10c1b43514115d42b044"
+    "0": "80598ed1b78490194263c73697a31163"
   },
   "chunkModuleIds": {
     "0": [
