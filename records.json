@@ -19,12 +19,12 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       },
-      "prepreHash": "6dad5f57466efeae71dc",
-      "preHash": "4de2b68c63653c7844ef",
-      "hash": "3f44571fbdb48044efd9",
+      "prepreHash": "0ddc62a41d5b54131f01",
+      "preHash": "b9c7166a0c385ebe8b53",
+      "hash": "282bf89e61ffbd771723",
       "moduleHashs": {
         "/home/sean/repos/wumpbot/node_modules/html-webpack-plugin/lib/loader.js!/home/sean/repos/wumpbot/node_modules/html-webpack-plugin/default_index.ejs": "e86ea57d072ff676b3895da5ba9e1f84",
         "/home/sean/repos/wumpbot/node_modules/lodash/lodash.js": "ff0ff85e30140887f414cdeee2a152fc",
@@ -32,10 +32,10 @@
         "/home/sean/repos/wumpbot/node_modules/webpack/buildin/module.js": "ec7ab57b072d32de713a160af67c1d74"
       },
       "chunkHashs": {
-        "0": "2b9c2e8cb25a43246067678689bf6579"
+        "1": "a271079e897bef1988b90fdb2472cd37"
       },
       "chunkModuleIds": {
-        "0": [
+        "1": [
           0,
           1,
           2,
@@ -48,12 +48,20 @@
     "byIdentifier": {
       "node_modules/babel-loader/lib/index.js??ref--0!app.js": 0,
       "node_modules/css-loader/index.js??ref--1-0!node_modules/postcss-loader/lib/index.js!app.css": 1,
-      "node_modules/css-loader/lib/css-base.js": 2
+      "node_modules/css-loader/lib/css-base.js": 2,
+      "node_modules/css-loader/index.js?{\"sourceMap\":true,\"minimize\":false,\"import\":false,\"modules\":true,\"camelCase\":\"only\",\"importLoaders\":1}!node_modules/postcss-loader/lib/index.js!app.css": 3,
+      "node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--1-1!node_modules/postcss-loader/lib/index.js!app.css": 4,
+      "node_modules/style-loader/lib/addStyles.js": 5,
+      "node_modules/style-loader/lib/urls.js": 6
     },
     "usedIds": {
       "0": 0,
       "1": 1,
-      "2": 2
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
     }
   },
   "chunks": {
@@ -65,22 +73,28 @@
       "0": 0
     }
   },
-  "prepreHash": "316b71563647cee845e7",
-  "preHash": "12d8bd1223d1c00ae53d",
-  "hash": "4d1b6770679313984bbf",
+  "prepreHash": "a9df83f2b54c46588482",
+  "preHash": "e4a5c2909f68465c67f6",
+  "hash": "c71dbd0debb38497bdf4",
   "moduleHashs": {
-    "/home/sean/repos/wumpbot/node_modules/babel-loader/lib/index.js??ref--0!/home/sean/repos/wumpbot/app.js": "18d296253adcb1c5127434e3972d21ca",
-    "/home/sean/repos/wumpbot/node_modules/css-loader/index.js??ref--1-0!/home/sean/repos/wumpbot/node_modules/postcss-loader/lib/index.js!/home/sean/repos/wumpbot/app.css": "ebe084f1c980cafece2a1bb40fc242e0",
-    "/home/sean/repos/wumpbot/node_modules/css-loader/lib/css-base.js": "5cfaf75bb86ef9acb7eb56c5d6359f5b"
+    "/home/sean/repos/wumpbot/node_modules/babel-loader/lib/index.js??ref--0!/home/sean/repos/wumpbot/app.js": "c83e16c3947e7929c98edc9603fb1169",
+    "/home/sean/repos/wumpbot/node_modules/css-loader/lib/css-base.js": "5cfaf75bb86ef9acb7eb56c5d6359f5b",
+    "/home/sean/repos/wumpbot/node_modules/css-loader/index.js?{\"sourceMap\":true,\"minimize\":false,\"import\":false,\"modules\":true,\"camelCase\":\"only\",\"importLoaders\":1}!/home/sean/repos/wumpbot/node_modules/postcss-loader/lib/index.js!/home/sean/repos/wumpbot/app.css": "cca4413e872a8a92505bff3aadc9808f",
+    "/home/sean/repos/wumpbot/node_modules/style-loader/index.js!/home/sean/repos/wumpbot/node_modules/css-loader/index.js??ref--1-1!/home/sean/repos/wumpbot/node_modules/postcss-loader/lib/index.js!/home/sean/repos/wumpbot/app.css": "12880c6109cb8114aa8aa94bcf581fde",
+    "/home/sean/repos/wumpbot/node_modules/style-loader/lib/addStyles.js": "64ad5d56918ff6622af4b13ec45e6986",
+    "/home/sean/repos/wumpbot/node_modules/style-loader/lib/urls.js": "77d4d8ebd23137a96fc0d4aa2f71cf38"
   },
   "chunkHashs": {
-    "0": "80598ed1b78490194263c73697a31163"
+    "0": "d3b92bea6b33ac00acd2461c68dc60a5"
   },
   "chunkModuleIds": {
     "0": [
       0,
-      1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6
     ]
   }
 }

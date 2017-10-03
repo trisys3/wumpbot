@@ -31,7 +31,7 @@ const cssLoader = {
   ],
 };
 
-if(process.env.nodeEnv === 'production') {
+if(process.env.NODE_ENV === 'production') {
   cssLoader.use.unshift(
     {
       loader: 'file-loader',
@@ -39,6 +39,8 @@ if(process.env.nodeEnv === 'production') {
     },
     'extract-loader',
   );
+} else {
+  cssLoader.use.unshift('style-loader');
 }
 
 const imgLoader = {
@@ -55,7 +57,7 @@ const imgLoader = {
 
 const htmlLoader = {
   test: /\.html$/,
-  loader: 'html-loader',
+  use: [{loader: 'html-loader'}, {loader: 'posthtml-loader'}],
 };
 
 const loaders = [
