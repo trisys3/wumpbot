@@ -23,7 +23,7 @@ server.use(compress())
 
 const app = createServer(server.callback());
 app.listen(argv.port);
-console.log(green('Application'), cyan('Wumpbot'), green('started at'),
-  red(new Date()));
-console.log(green('port'), gray(argv.port));
+console.log(green('Application'), cyan('Wumpbot'));
+console.log(green('Started at'), red(new Date()));
+console.log(green('Port'), gray(argv.port));
 console.log(green('Environment:'), magenta(env));
