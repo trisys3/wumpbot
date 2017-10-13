@@ -2,7 +2,7 @@ import {HotModuleReplacementPlugin as HMR} from 'webpack';
 import IndexHtml from 'html-webpack-plugin';
 
 const hmr = new HMR();
-const indexHtml = new IndexHtml();
+const indexHtml = new IndexHtml({template: 'index.html'});
 
 const plugins = [hmr, indexHtml];
 
@@ -55,10 +55,7 @@ const imgLoader = {
   }],
 };
 
-const htmlLoader = {
-  test: /\.html$/,
-  use: [{loader: 'html-loader'}, {loader: 'posthtml-loader'}],
-};
+const htmlLoader = {test: /\.html$/, use: 'html-loader'};
 
 const loaders = [
   jsLoader,
