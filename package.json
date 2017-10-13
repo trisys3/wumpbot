@@ -4,7 +4,7 @@
   "description": "Simple single-page application based on the early text-based game Hunt the Wumpus",
   "main": "server.js",
   "scripts": {
-    "start": "babel-node main.js",
+    "start": "babel-node server.js",
     "test": "jest"
   },
   "repository": {
