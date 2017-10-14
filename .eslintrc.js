@@ -165,9 +165,17 @@ exports.rules = {
   'operator-linebreak': 1,
   'padded-blocks': [1, 'never'],
   'quote-props': [1, 'as-needed'],
-  quotes: [1, 'single', {avoidEscape: true}],
+  quotes: [
+    1,
+    'single',
+    {avoidEscape: true},
+  ],
   // 'require-jsdoc': 1,
-  'babel/semi': [1, 'always', {omitLastInOneLineBlock: true}],
+  'babel/semi': [
+    1,
+    'always',
+    {omitLastInOneLineBlock: true},
+  ],
   'space-before-blocks': 1,
   'space-before-function-paren': [
     1,
@@ -200,7 +208,11 @@ exports.rules = {
   'no-useless-constructor': 1,
   'no-useless-rename': 1,
   'no-var': 2,
-  'object-shorthand': [1, 'always', {avoidQuotes: true}],
+  'object-shorthand': [
+    1,
+    'always',
+    {avoidQuotes: true},
+  ],
   'prefer-arrow-callback': 1,
   'prefer-const': 1,
   'prefer-destructuring': 1,
