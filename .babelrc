@@ -1,6 +1,6 @@
 {
-  presets: [['env', {
-    targets: {
+  presets: [
+    ['env', {targets: {
       node: true,
       browsers: [
         'last 2 chrome versions',
@@ -11,7 +11,19 @@
         'last 2 and_chr versions',
         'last 2 ios versions',
       ],
-    },
-  }],
-  'stage-3'],
+    }}],
+    'stage-3',
+  ],
+  plugins: [
+    'transform-react-display-name',
+    'transform-react-inline-elements',
+    'transform-react-jsx',
+  ],
+  env: {
+    dev: [
+      'transform-react-jsx-self',
+    ], prod: [
+      'transform-react-constant-elements',
+    ],
+  },
 }

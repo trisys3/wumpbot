@@ -17,7 +17,11 @@ exports.env = {
   es6: true,
 };
 
-exports.plugins = ['babel'];
+exports.plugins = [
+  'babel',
+  'import',
+  'react',
+];
 
 exports.rules = {
   // possible errors
@@ -192,6 +196,49 @@ exports.rules = {
   'switch-colon-spacing': 1,
   'template-tag-spacing': 1,
   'unicode-bom': 2,
+
+  // import/export
+  'import/no-unresolved': 2,
+  'import/named': 2,
+  'import/default': 2,
+  'import/namespace': 2,
+  'import/no-absolute-path': 2,
+  'import/export': 2,
+
+  // import/export warnings
+  'import/no-deprecated': 2,
+  'import/no-extraneous-dependencies': 2,
+
+  // import/export style
+  'import/no-duplicates': 2,
+  'import/no-unassigned-import': [2, {allow: ['**/*.css']}],
+
+  // react
+  'react/no-direct-mutation-state': 2,
+  'react/no-unescaped-entities': 2,
+  'react/prefer-stateless-function': 2,
+  'react/prefer-es6-class': 2,
+  'react/react-in-jsx-scope': 2,
+  'react/require-render-return': 2,
+  'react/self-closing-comp': 2,
+  'react/style-prop-object': 2,
+  'react/void-dom-elements-no-children': 2,
+
+  // jsx
+  'react/jsx-boolean-value': [2, 'always'],
+  'react/jsx-closing-bracket-location': 2,
+  'react/jsx-closing-tag-location': 2,
+  'react/jsx-curly-spacing': [2, {children: true, allowMultiline: false}],
+  'react/jsx-equals-spacing': 2,
+  'react/jsx-no-comment-textnodes': 2,
+  'react/jsx-no-duplicate-props': 2,
+  'react/jsx-no-literals': 2,
+  'react/jsx-no-undef': 2,
+  'react/jsx-curly-brace-presence': [2, {props: 'ignore', children: 'always'}],
+  'react/jsx-pascal-case': 2,
+  'react/jsx-tag-spacing': 2,
+  'react/jsx-uses-react': 2,
+  'react/jsx-uses-vars': 2,
 
   // ES6
   'arrow-body-style': 1,
