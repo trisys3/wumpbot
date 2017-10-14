@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "babel-node server.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.1",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
@@ -50,8 +52,14 @@
     "webpack": "^3.6.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-react-display-name": "^6.25.0",
+    "babel-plugin-transform-react-inline-elements": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-react-jsx-self": "^6.22.0",
     "doiuse": "^3.0.1",
     "eslint": "^4.8.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.4.0",
     "stylelint": "^8.1.1"
   }
 }
