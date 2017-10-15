@@ -55,7 +55,7 @@ const imgLoader = {
   }],
 };
 
-const htmlLoader = {test: /\.html$/, use: 'html-loader'};
+const htmlLoader = {test: /\.html$/, use: [{loader: 'html-loader', options: {minimize: true}}]};
 
 const loaders = [
   jsLoader,
