@@ -2,7 +2,7 @@ import {HotModuleReplacementPlugin as HMR} from 'webpack';
 import IndexHtml from 'html-webpack-plugin';
 
 const hmr = new HMR();
-const indexHtml = new IndexHtml({template: 'index.html'});
+const indexHtml = new IndexHtml({template: 'index.hbs'});
 
 const plugins = [hmr, indexHtml];
 
@@ -55,7 +55,7 @@ const imgLoader = {
   }],
 };
 
-const htmlLoader = {test: /\.html$/, use: [{loader: 'html-loader', options: {minimize: true}}]};
+const htmlLoader = {test: /\.hbs$/, use: 'handlebars-loader'};
 
 const loaders = [
   jsLoader,
