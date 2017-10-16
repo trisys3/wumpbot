@@ -1,3 +1,9 @@
-import './app.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-console.log('Hello from app.js!');
+import './app.css';
+import WbMap from './map';
+
+const mapElem = global.document.querySelector('map');
+
+ReactDOM.render(<WbMap />, mapElem);

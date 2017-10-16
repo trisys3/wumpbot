@@ -1,8 +1,10 @@
 html {
   display: flex;
+  height: 100%;
 }
 
 body {
   display: flex;
+  flex-grow: 1;
   background-color: wheat;
 }
