@@ -40,10 +40,12 @@
     "koa": "^2.3.0",
     "koa-compress": "^2.0.0",
     "koa-static": "^4.0.1",
+    "leaflet": "^1.2.0",
     "postcss-cssnext": "^3.0.2",
     "postcss-loader": "^2.0.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-leaflet": "^1.7.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.6.0"
   },
