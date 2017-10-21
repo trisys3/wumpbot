@@ -30,6 +30,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
+    "chalk": "^2.2.0",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
     "eslint-plugin-babel": "^4.1.2",
@@ -46,8 +47,11 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-leaflet": "^1.7.1",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
     "style-loader": "^0.18.2",
-    "webpack": "^3.6.0"
+    "webpack": "^3.6.0",
+    "yargs": "^9.0.1"
   },
   "devDependencies": {
     "babel-plugin-transform-react-display-name": "^6.25.0",
