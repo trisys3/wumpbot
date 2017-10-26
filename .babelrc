@@ -18,6 +18,7 @@
     'transform-react-display-name',
     'transform-react-inline-elements',
     'transform-react-jsx',
+    'react-hot-loader/babel',
   ],
   env: {
     dev: [
