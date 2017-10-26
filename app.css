@@ -8,3 +8,8 @@ body {
   flex-grow: 1;
   background-color: wheat;
 }
+
+map {
+  flex-grow: 1;
+  background-image: repeating-linear-gradient(150deg, white, gray 50px, white 100px);
+}
