@@ -211,7 +211,6 @@ exports.rules = {
 
   // import/export style
   'import/no-duplicates': 1,
-  'import/no-unassigned-import': [1, {allow: ['**/*.css']}],
 
   // react
   'react/no-direct-mutation-state': 2,
