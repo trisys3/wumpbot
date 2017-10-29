@@ -9,7 +9,7 @@ import WbMap from './map';
 
 const socket = io();
 
-const mapElem = global.document.querySelector('map');
+const mapElem = global.document.querySelector('wb-map');
 
 render();
 

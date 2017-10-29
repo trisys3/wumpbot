@@ -9,7 +9,9 @@ body {
   background-color: wheat;
 }
 
-map {
+wb-map {
+  display: flex;
   flex-grow: 1;
+  overflow: hidden;
   background-image: repeating-linear-gradient(150deg, white, gray 50px, white 100px);
 }
