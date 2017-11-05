@@ -143,6 +143,7 @@ exports.rules = {
         import: {after: true},
         try: {after: true},
         finally: {after: true},
+        case: {after: true},
         return: {after: true},
         const: {after: true},
         let: {after: true},
