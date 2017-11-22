@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom';
 import io from 'socket.io-client';
 
 import './app.css';
-import WbMap from './map';
 
 const socket = io();
 
@@ -30,6 +29,8 @@ async function checkHot() {
 }
 
 function render() {
+  const WbMap = require('./wb-map').default;
+
   return ReactDOM.render(<AppContainer>
     <WbMap />
   </AppContainer>, mapElem);
