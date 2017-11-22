@@ -226,7 +226,6 @@ exports.rules = {
 
   // jsx
   'react/jsx-boolean-value': 1,
-  'react/jsx-closing-bracket-location': 1,
   'react/jsx-curly-spacing': [1, {children: true, allowMultiline: false}],
   'react/jsx-equals-spacing': 1,
   'react/jsx-no-comment-textnodes': 2,
