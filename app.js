@@ -29,7 +29,7 @@ async function checkHot() {
 }
 
 function render() {
-  const WbMap = require('./wb-map').default;
+  const WbMap = require('./map').default;
 
   return ReactDOM.render(<AppContainer>
     <WbMap />
