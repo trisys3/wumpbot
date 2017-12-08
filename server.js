@@ -10,6 +10,7 @@ import webpack from 'webpack';
 import Sockets from 'socket.io';
 
 import bundler from './webpack.config.babel';
+import routes from './routes';
 
 const socket = new Sockets();
 
@@ -26,7 +27,8 @@ const server = new Koa();
 const bundle = webpack(bundler);
 
 server.use(compress())
-  .use(serveStatic('dist/'));
+  .use(serveStatic('dist/'))
+  .use(routes());
 
 const app = createServer(server.callback());
 socket.listen(app);
